@@ -112,8 +112,8 @@ interface ITwindexCallee {
 contract TwindexERC20 is ITwindexERC20 {
     using SafeMath for uint;
 
-    string public constant name = 'Twindex V1';
-    string public constant symbol = 'PONY-V1';
+    string public constant name = 'Twindex LP Token';
+    string public constant symbol = 'TWINDEX-LP';
     uint8 public constant decimals = 18;
     uint  public totalSupply;
     mapping(address => uint) public balanceOf;
